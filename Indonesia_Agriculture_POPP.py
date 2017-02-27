@@ -43,7 +43,8 @@ import os
 try:
     arcpy.env.workspace = raw_input("What is the workspace path? ")
     arcpy.env.overwriteOutput = True
-    #Set temporary output folder to put transformed rasters into -  this folder should include add rasters to be converted later
+    # Set temporary output folder to put transformed rasters into -  
+    # this folder should include add rasters to be converted later
     outFolder = raw_input("What is the name of the output folder? ")
 
     #Make sure "Spatial Analyst" extension is on
